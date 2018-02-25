@@ -6,19 +6,8 @@
     "type": "git",
     "url": "git+https://github.com/Undistraction/jasmine-multiline-matchers.git"
   },
-  "files": [
-    "dist",
-    "src",
-    "lib"
-  ],
-  "keywords": [
-    "jest",
-    "jasmine",
-    "multiline",
-    "dedent",
-    "test",
-    "matchers"
-  ],
+  "files": ["dist", "src", "lib"],
+  "keywords": ["jest", "jasmine", "multiline", "dedent", "test", "matchers"],
   "author": "Pedr Browne",
   "license": "MIT",
   "bugs": {
@@ -34,7 +23,7 @@
     "build:dist": "NODE_ENV=development rollup --config",
     "test": "jest --watch",
     "test:noWatch": "jest",
-    "prepublishOnly": "verify",
+    "prepublishOnly": "npm run verify",
     "publish:patch": "npm version patch && sudo npm publish",
     "publish:minor": "npm version minor && sudo npm publish",
     "publish:major": "npm version major && sudo npm publish",
