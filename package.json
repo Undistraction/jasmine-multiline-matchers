@@ -6,12 +6,8 @@
     "type": "git",
     "url": "git+https://github.com/Undistraction/jasmine-multiline-matchers.git"
   },
-  "files": [
-    "dist",
-    "src",
-    "lib"
-  ],
-  "keywords": [],
+  "files": ["dist", "src", "lib"],
+  "keywords": ["jest", "jasmine", "multiline", "dedent", "test", "matchers"],
   "author": "Pedr Browne",
   "license": "MIT",
   "bugs": {
