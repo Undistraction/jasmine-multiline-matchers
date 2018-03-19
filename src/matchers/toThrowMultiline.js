@@ -61,7 +61,7 @@ const toThrowMultiline = (actual, expectedTemplateString) => {
     error = err
   }
 
-  let pass
+  let pass = false
   let received
   let expected
 
